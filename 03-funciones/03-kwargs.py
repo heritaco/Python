@@ -3,5 +3,5 @@ def get_product(**datos):  # ahora es con dos asteriscos
 
 
 get_product(id="id",
-            name="iphone",
+            name="amongus",
             desc="desc")
