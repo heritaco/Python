@@ -22,3 +22,11 @@ def es_palindromo(texto):
 
 print(es_palindromo("amo la paloma"))
 print(es_palindromo("juan"))
+
+
+def es_palindromo2(texto):
+    texto = texto.replace(" ", "").lower()
+    return texto == texto[::-1]
+
+
+print(es_palindromo2("amo la paloma"))
